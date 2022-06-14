@@ -2,7 +2,7 @@
 
 /**
  * main - main is star line
- * return: (0)
+ * return: 0
  */
 
 int main(void)
