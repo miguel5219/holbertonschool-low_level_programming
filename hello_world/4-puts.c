@@ -1,1 +1,11 @@
-#!/bin/bash
+#include <stdio.h>
+/**
+ * main - main is star line
+ * return: (0)
+ */
+
+int main(void)
+{
+	printf("Programming is like building a multilingual puzzle\n");
+	return (0);
+}
