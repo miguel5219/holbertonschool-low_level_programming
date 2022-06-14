@@ -1,2 +1,2 @@
-#!/bin/bash
-$ gcc -o $CFILE main.c
+#!/bin/bashi
+gcc hello.c -o hello
