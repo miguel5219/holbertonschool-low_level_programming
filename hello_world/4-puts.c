@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main is star line
+ * main - is star line
  * return: 0
  */
 
