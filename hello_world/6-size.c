@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int = 16;
+	int a = 16;
 
 	printf("Size of variable a : %d\n", sizeof(a));
 	printf("Size of int data type : %d\n", sizeof(int));
