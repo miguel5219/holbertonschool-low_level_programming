@@ -7,7 +7,11 @@
 
 int main(void)
 {
-	int a = 64;
+	char c;
+	int i;
+	long int il;
+	long long int;
+	float f;
 
 	printf("Size of variable a : %d\n", sizeof(a));
 	printf("Size of int data type : %d\n", sizeof(int));
