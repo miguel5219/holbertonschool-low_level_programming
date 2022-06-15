@@ -9,9 +9,13 @@ int main(void)
 {
 	char i;
 
-	for (i = 'a'; i <= 'z'; grep - v 'q', 'e'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
+	}
+	for (i = 'q'; i = 'e');
+	{
+		putchar(0);
 	}
 	putchar('\n');
 	return (0);
