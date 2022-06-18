@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- *main - check the code
- *
- *Return: 0
+ *_isalpha - star line
+ *@c: show this character
+ *Return: letter, return 1
+ *otherwise, return 0
  */
 
 int _isalpha(int c)
 {
-	char letter;
-	if( letter = 'a'; letter <= 'z'; letter++ )
+	if (c >= 'A' && c <= 'z')
+	{
+		return (1);
+	}
+	else
 	{
 		return (0);
-	}
-	else (letter == 'c');
-	{
-		return (1)
 	}
 }
