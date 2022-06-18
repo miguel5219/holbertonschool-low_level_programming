@@ -1,16 +1,17 @@
 #include "main.h"
 /**
-  * print_alphabet - print alphabet
-  * Return: 0
-  */
+* _islower - star line
+* @c: The caracter to print
+* Return: 0
+*/
 int _islower(int c)
 {
-	if (c < 'Z')
-	{
-		return (0);
-	}
-	else
-	{
-		return (1);
-	}
+if (c < 'Z')
+{
+return (0);
+}
+else
+{
+return (1);
+}
 }
