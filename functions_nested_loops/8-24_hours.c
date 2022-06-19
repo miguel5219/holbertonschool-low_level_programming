@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - print minute of the day
- * @n: check
  * Return: 0
  */
 
