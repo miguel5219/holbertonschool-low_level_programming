@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-  *int _strlen - print long chain
+  *_strlen - print long chain
   *@s: char
   *Return: int
   */
