@@ -9,7 +9,6 @@
 char *leet(char *str)
 {
 	int a, b;
-	
 	char l[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	char number_letter[11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
