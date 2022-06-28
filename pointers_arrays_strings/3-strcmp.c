@@ -2,8 +2,8 @@
 
 /**
   * _strcmp - called from code
-  * @s1: pointer
-  * @s2: pointer
+  * @s1: string
+  * @s2: string
   * Return: 0
   */
 
@@ -14,5 +14,5 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-	return (0);
+        return (*s1 - *s2);
 }
