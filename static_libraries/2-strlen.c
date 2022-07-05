@@ -1,19 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 #include <string.h>
 
 /**
- *_strlen - print long chain
- *@s: char
- *Return: int
- */
+  * _strlen - value
+  * @s: char
+  * Return: 0
+  */
 
 int _strlen(char *s)
 {
-	int a = 0;
+	int str = 0;
 
-	while (s[a] != '\0')
-	{
-	a++;
-	}
-	return (a);
+	while (*s++)
+		str++;
+
+	return (str);
 }
