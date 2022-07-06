@@ -18,8 +18,8 @@ int main( int argc, char **argv)
 		printf("error\n");
 		return (1);
 	}
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
+	x = _atoi(argv[1]);
+	y = _atoi(argv[2]);
 	mul = x * y;
 	printf("%d\n", mul);
 
