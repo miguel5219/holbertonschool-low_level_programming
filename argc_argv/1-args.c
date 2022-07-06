@@ -4,7 +4,7 @@
 /**
   * main - print number of arguments
   * @argc: size of argv
-  * @ergv: program
+  * @argv: program
   * Return: 0
   */
 
