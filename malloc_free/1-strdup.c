@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * strdup - returns a pointer to a newly allocated.
-  * @str: var
-  * Return: 
-  */
+ * _strdup - returns a pointer to a newly allocated.
+ * @str: var
+ * Return: s
+ */
 
 char *_strdup(char *str)
 {
@@ -12,20 +12,19 @@ char *_strdup(char *str)
 	int i = 0;
 
 	if (str == NULL)
-		return NULL;
+		return (NULL);
 
 	while (str[i])
 		i++;
-	i -= 1;
-		 
+
 	s = malloc((sizeof(char) * i) + 1);
-	
+
 	if (s == NULL)
-		return NULL;
+		return (NULL);
 
 	for (i = 0; str[i]; i++)
 		s[i] = str[i];
-	
+
 	return (s);
 
 }
