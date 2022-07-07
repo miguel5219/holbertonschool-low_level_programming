@@ -15,8 +15,6 @@ char *str_concat(char *s1, char *s2)
 	if (!*s1 && !*s2)
 		return (NULL);
 
-	if (s3 == NULL)
-
 	if (s1 == NULL)
 		s1 = "";
 
