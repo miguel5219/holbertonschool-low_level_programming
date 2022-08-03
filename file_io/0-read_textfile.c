@@ -9,7 +9,7 @@
   * Return: struct
   */
 
-ssize_t read_textfile(const char *filename,size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *tmp;
 	ssize_t file, rfile, wfile;
